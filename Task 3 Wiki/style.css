@@ -1,0 +1,22 @@
+﻿span.gray{
+    color: gray;
+}
+
+span.blue{
+    color: blue;
+}
+
+span.gray:before{
+    content: ' '; 
+    display: block;
+}
+
+span.gray:after{
+    content: ' ';
+    display: block;
+}
+
+span.blue:after{
+    content: ' ';
+    display: block;
+}

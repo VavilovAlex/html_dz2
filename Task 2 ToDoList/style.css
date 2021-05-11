@@ -1,0 +1,34 @@
+﻿.ToDoList>div{
+    padding: 10px 30px 10px;
+}
+
+*{
+    font-family: Calibri, serif;
+}
+
+.item:nth-child(odd){
+    background-color: #4dfbff;
+}
+
+.item:nth-child(even){
+    background-color: #38dde2;
+}
+
+.checked{
+    background-color: white !important;
+}
+
+.item>label>input{
+    margin-right: 15px;
+}
+
+.item::after {
+    content: "❌";
+    color: red;
+    margin-left: 20px;
+    font-size: 70%;
+}
+
+.checked>* {
+    text-decoration: line-through;
+}
